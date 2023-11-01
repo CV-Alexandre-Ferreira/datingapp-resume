@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkboxHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Race" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tall" />
+
+        <SeekBar
+            android:id="@+id/seekBarDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:max="100"
+            android:progress="1"/>
+
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 km" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBoxMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Money" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSexNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SN" />
+
+        <CheckBox
+            android:id="@+id/checkBoxDateFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DF" />
+
+        <Button
+            android:id="@+id/buttonSaveSetUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Data" />
+
+    </LinearLayout>
+
+</LinearLayout>
